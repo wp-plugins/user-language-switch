@@ -45,8 +45,8 @@ Make sure you create a 'languages' folder in your theme folder containing the .m
 
 == Screenshots ==
 
-1. screenshot1.png illustrates the User Language options available in the backend. It allows you to select the languages that will be used in the backend and the frontend as default.
-2. screenshot2.png shows the 'Language' meta box that will appear in every post, page and custom post type from where you will be able to select the post language and its translated version.
+1. This screenshot illustrates the User Language options available in the backend. It allows you to select the languages that will be used in the backend and the frontend as default.
+2. Screenshot 2 shows the 'Language' meta box that will appear in every post, page and custom post type from where you will be able to select the post language and its translated version.
 
 == Changelog ==
 = 1.0 =
