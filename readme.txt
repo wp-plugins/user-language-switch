@@ -8,8 +8,9 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-User Language Switch allows you to associate the original version and the translation of pages, posts and custom post types through custom fields
- in an easy and friendly way. The available languages are taken from the current theme and the wordpress installation.
+User Language Switch allows each backend user to set the language displayed in the back-end and front-end of the site. ULS also allows to associate the original version and the translation of pages, posts and custom post types through custom fields in an easy and friendly way. 
+You can easily create the language links by adding the [uls-language-selector] shortcode.
+The available languages are taken from the current theme and the wordpress installation.
 
 = Localization =
 
@@ -29,7 +30,7 @@ This section describes how to install the plugin and get it working.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Once you have activated the plugin, select the option 'User language' in your wordpress menu and select the default langauges for the backend and the frontend.
 4. Go to your post/page and select the post language, and the translated versions of the plugin using the custom fields under the 'Language' box.
-5. Add the following php code to the template or theme file where you want the language links to appear:
+5. In order to create the language links, you can add the [uls-language-selector] shortcode or add the following php code to the template or theme file where you want the language links to appear:
 <?php echo uls_language_link_switch(); ?>
 
 
