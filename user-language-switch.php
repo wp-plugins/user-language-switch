@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: User Language Switch
-Description: ULS allows backend users to set the language displayed in the back-end and front-end of your site. It also allos you to transalte every page, post or custom post type.
+Description: ULS allows backend users to set the language displayed in the back-end and front-end of your site. It also allos you to translate pages and posts.
 Version: 1.0
 Author: webilop
 Author URI: www.webilop.com
