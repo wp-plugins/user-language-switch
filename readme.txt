@@ -32,8 +32,7 @@ This section describes how to install the plugin and get it working.
 4. Go to your post/page and select the post language, and the translated versions of the plugin using the custom fields under the 'Language' box.
 5. In order to create the language links, you can:
 a) add the [uls-language-selector] shortcode or 
-b) add the following php code to the template or theme file where you want the language links to appear:
-<?php echo uls_language_link_switch(); ?>
+b) add the following php code to the template or theme file where you want the language links to appear: echo uls_language_link_switch();
 
 
 == Frequently Asked Questions ==
