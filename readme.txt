@@ -30,7 +30,9 @@ This section describes how to install the plugin and get it working.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Once you have activated the plugin, select the option 'User language' in your wordpress menu and select the default langauges for the backend and the frontend.
 4. Go to your post/page and select the post language, and the translated versions of the plugin using the custom fields under the 'Language' box.
-5. In order to create the language links, you can add the [uls-language-selector] shortcode or add the following php code to the template or theme file where you want the language links to appear:
+5. In order to create the language links, you can:
+a) add the [uls-language-selector] shortcode or 
+b) add the following php code to the template or theme file where you want the language links to appear:
 <?php echo uls_language_link_switch(); ?>
 
 
