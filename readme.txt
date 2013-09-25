@@ -3,7 +3,7 @@ Contributors: webilop
 Tags: language, localization, language switcher, content translation, multilanguage site, content localization
 Requires at least: 3.0.1
 Tested up to: 3.5.1
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,6 +16,7 @@ The available languages are taken from the current theme and the wordpress insta
 
 *English (default).
 *Spanish
+*Persian
 
 = Documentation =
 
@@ -53,3 +54,5 @@ Make sure you create a 'languages' folder in your theme folder containing the .m
 * First general availability plug-in version
 = 1.1 =
 * Anonymous functions deleted in order to support php versions earlier than 5.3
+= 1.2 =
+* Persian language added to localization
