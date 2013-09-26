@@ -55,4 +55,4 @@ Make sure you create a 'languages' folder in your theme folder containing the .m
 = 1.1 =
 * Anonymous functions deleted in order to support php versions earlier than 5.3
 = 1.2 =
-* Persian language added to localization
+* Persian language added to localization. Special thanks to Khalil Delavaran (khalil.delavaran[at]gmail.com) for this contribution.
