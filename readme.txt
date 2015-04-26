@@ -3,7 +3,7 @@ Contributors: webilop
 Tags: language, localization, language switcher, content translation, multilanguage site, content localization
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.4
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,7 @@ Make sure you create a 'languages' folder in your theme folder containing the .m
 * Persian language added to localization. Special thanks to Khalil Delavaran(khalil.delavaran[at]gmail.com) for this contribution.
 = 1.3 =
 * Serbo-Croatian language added. Special thanks to Borisa Djuraskovic(borisad@webhostinghub.com) from Web Hosting Hub(http://www.webhostinghub.com) for this contribution.
+= 1.4 =
 * Fix of bug in redirections between translated pages and prefixes to avoid repeated pages with the same content.
 * Fix of bug creating the links of the laguage switch. Some linkes used to not be created properly.
 * Fix of bug in the selection of translations for a post. All the available translations used to not be loaded.
