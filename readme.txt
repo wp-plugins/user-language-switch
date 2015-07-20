@@ -3,7 +3,7 @@ Contributors: webilop
 Tags: language, localization, language switcher, content translation, multilanguage site, content localization
 Requires at least: 3.0.1
 Tested up to: 4.2
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,3 +69,5 @@ Make sure you create a 'languages' folder in your theme folder containing the .m
 * Fix of bugs in localization of the plugin.
 * Fix of typos in comments in code of the plugin.
 * Thanks to Jaillet, Christophe for feedback provided.
+= 1.4.2 =
+* Fix of incompatiblity with other plugins that use locate functions in the init hook.

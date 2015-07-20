@@ -2,7 +2,7 @@
 /*
 Plugin Name: User Language Switch
 Description: Allows backend users to set the language displayed in the back-end and front-end of your site. It also allows to translate pages and posts.
-Version: 1.4.1
+Version: 1.4.2
 Author: webilop
 Author URI: www.webilop.com
 License: GPL2
@@ -114,7 +114,7 @@ function uls_get_user_saved_language($only_lang = false, $type = null){
   }
 
   //if the user is logged in
-   if( is_user_logged_in()){
+   if(function_exists('is_user_logged_in') && is_user_logged_in()){
     //if the user can modify the language
       if($options["user_{$type}_configuration"])
          $language = get_user_meta(get_current_user_id(), "uls_{$type}_language", true);
@@ -539,10 +539,10 @@ function uls_get_url_translated($url, $language, $type = 'prefix', $remove_defau
    //if URL will omit default language
    if($remove_default_language){
       //if language is the same for the user
-      if(is_user_logged_in() && $language == uls_get_user_saved_language())
+      if(function_exists('is_user_logged_in') && is_user_logged_in() && $language == uls_get_user_saved_language())
          $language = '';
       //if language is the default language
-      elseif(! is_user_logged_in() && $language == uls_get_site_language())
+      elseif(function_exists('is_user_logged_in') && !is_user_logged_in() && $language == uls_get_site_language())
          $language = '';
    }
 
